@@ -12,30 +12,34 @@ body{
     color: #F9FAF8;
     font-size: 24px;
     margin: 0;
-    padding: 10px 60px;
+    padding: 20px 30px;
 }
 ul{
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
     font-weight: 200;
-}
-.links{
     display: flex;
     margin: 0;
-    padding: 10px;
+    padding: 20px 30px;
     justify-content: space-between;
     gap: 16px;
 }
+
 .content{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background-color: #1F2937;
 }
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .main-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 0;
-    padding: 80px 60px;
+    padding: 80px 120px 10px;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
@@ -43,12 +47,29 @@ ul{
 .description{
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0 120px;
+    width: 400px;
 }
 button{
     color: #E5E7EB;
     background-color: #3882F6;
-    margin: 10px;
-    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 4px;
+    margin-left: 120px;
     border: 1px solid #3882F6;
     border-radius: 8px;
+    width: 80px;
+    height: 35px;
+    margin-top: 10px;
+}
+img{
+    width: 460px;
+    height: 250px;
+}
+.image-placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
