@@ -8,12 +8,28 @@ body{
 }
 .blue-block{
     background-color: #1F2937;
+    padding-bottom: 60px;
 }
 .white-block, .action-block{
     display: flex;
     background-color: #F9FAF8;
     justify-content: center;
     align-items: center;
+}
+.white-block{
+    flex-direction: column;
+}
+.info{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    padding: 24px;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
 }
 .gray-block{
     background-color: #E5E7EB;
@@ -37,15 +53,37 @@ body{
     font-style: normal;
     font-size: 24px;
     align-self: end;
+    padding-right: 100px;
     font-weight: bold;
     color: #1F2937;
 }
+.action-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 .sign-up-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
     width: 800px;
     height: 100px;
+    padding: 40px 35px;
     background-color: #3882F6;
     border-radius: 8px;
     border: 1px solid #3882F6;
+}
+.action{
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 2px;
+}
+.sign-up{
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
 }
 .footer{
     background-color: #1F2937;
@@ -78,27 +116,24 @@ ul{
 }
 
 .content{
+    padding-left: 120px;
+    display: flex;
+    padding-top: 120px;
     background-color: #1F2937;
 }
 .text{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+
 }
 .main-title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    padding: 80px 120px 10px;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 .description{
+    padding-top: 2px;
+    padding-bottom: 10px;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 0 120px;
     width: 400px;
 }
 button{
@@ -108,19 +143,30 @@ button{
     align-items: center;
     justify-content: center;
     padding: 8px 4px;
-    margin-left: 120px;
     border: 1px solid #3882F6;
     border-radius: 8px;
     width: 80px;
     height: 35px;
-    margin-top: 10px;
 }
-img{
+.main-image{
     width: 460px;
-    height: 250px;
+    height: 300px;
+    margin-left: 260px;
+    border: 3px solid #E5E7EB;
+    border-radius: 8px;
 }
-.image-placeholder{
+.small-image{
+    width: 250px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+
+}
+.picture-text{
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    padding: 10px 20px;
+    color: #1F2937;
 }
